@@ -1,0 +1,226 @@
+@import 'reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Kodchasan:wght@200&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,700&family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Kodchasan:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Inter:wght@200;300;400;500;600;700&family=Kodchasan:wght@200&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,700&family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,300;1,400&display=swap');
+
+$fonte-principal: 'Inter', 'sans-serif';
+$fonte-secundaria:'Amaranth'  ;
+$fonte-titulo: 'Kodchasan', 'sans-serif';
+
+
+$breakpoint-mobile: 320px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Section Capa */
+
+.container-capa{
+    width: 100vw;
+    height: 80vh;
+    background-image:url(../../../public/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.capa-titulo{
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.capa-titulo h1{
+    font-size: 4rem;
+    font-family: $fonte-titulo;
+}
+
+.capa-titulo h2{
+    font-size: 3rem;
+    padding: 2% 0 0 0;
+    font-family: $fonte-titulo;
+    padding: 0 0 10% 0;
+}
+
+.ancora-saber-mais{
+    font-family: $fonte-principal;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 1rem ;
+    color: #ffffff;
+
+    border: solid 1px #ffffff;
+    border-radius:15px ;
+
+    margin: 5% 0 0 0;
+    padding: 2% 15% 2% 15%;
+}
+
+
+/* Section Objetivo */
+
+.container-objetivo{
+    width: 100vw;
+    height: 40vh;
+
+    margin: 10% 0% 10% 0%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.objetivo-conteudo{
+    width: 50%;
+    height: 70%;
+}
+
+.objetivo-conteudo h3{
+        font-family: $fonte-secundaria;
+        font-size: 40px;
+}
+
+.objetivo-conteudo p{
+    font-family: $fonte-principal;
+    font-size: 28px ;
+    padding: 2% 0 0 0;
+}
+
+.objetivo-img{
+    width: 600px;
+    height: 500px;
+}
+
+/* Section Conteudo */
+.container-conteudo{
+    height: 40vh;
+    background-color: #D9D9D9;
+}
+
+/* Section para conhecer a Solução */
+.container-solucao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10% 0 10% 0;
+
+}
+.container-solucao h1{
+    font-size: 40px;
+    font-family: $fonte-secundaria;
+    margin: 0 0 1% 0;
+}
+
+.acessar-solucao{
+    font-family: $fonte-secundaria;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+
+    background-color: #0A0F8C ;
+    padding: 1% 10% 1% 10%;
+    border-radius: 30px;
+}
+
+
+@media (min-width: $breakpoint-mobile) and (max-width: 800px) {
+    /* Section Capa */
+
+.container-capa{
+    width: 100vw;
+    height: 80vh;
+    background-image:url(../../../public/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.capa-titulo{
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.capa-titulo h1{
+    font-size: 2rem;
+    font-family: $fonte-titulo;
+}
+
+.capa-titulo h2{
+    font-size: 1rem;
+    margin: 5% 0 0 0;
+}
+
+
+/* Section Objetivo */
+
+.container-objetivo{
+    width: 100vw;
+    height: 40vh;
+
+    margin: 20% 0% 20% 0%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.objetivo-conteudo{
+    width: 80%;
+    height: 70%;
+}
+
+.objetivo-conteudo h3{
+    font-family: $fonte-secundaria;
+    font-size: 22px;
+ 
+}
+
+.objetivo-conteudo p{
+    font-family: $fonte-principal;
+    font-size: 16px ;
+    padding: 2% 0 2% 0;
+}
+.obj-titulo{
+    
+}
+.objetivo-img{
+    width: 300px;
+    height: 200px;
+}
+
+/* Section Conteudo */
+
+
+/* Section para conhecer a Solução */
+
+.container-solucao h1{
+    font-size: 22px;
+    font-family: $fonte-secundaria;
+    margin: 0 0 5% 0;
+}
+
+.acessar-solucao{
+    font-family: $fonte-secundaria;
+    font-size: 16px;
+    padding: 1% 10% 1% 10%;
+ 
+}
+}
