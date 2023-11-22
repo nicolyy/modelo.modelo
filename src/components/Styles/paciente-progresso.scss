@@ -1,0 +1,67 @@
+@import "style.scss";
+
+$breakpoint-mobile: 320px;
+
+/* Barra de progresso */
+.background{
+    display: flex;
+    flex-direction: column;
+}
+
+.input.progress{
+    margin: 10px auto;
+   
+    
+  }
+  
+  .progress-bar{
+    --progress: 50;
+    height: 20px;
+    padding: 5px;
+    background-color: #0A0F8C;
+    display: flex;
+
+    border-radius: 30px;
+    
+  }
+
+  
+  @media (min-width: $breakpoint-mobile) and (max-width: 800px) {
+
+    .principal-progresso{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-progresso{
+        width: 90%;
+        height: 10vh;
+        background-color: #E3E4FF ;
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 10% 0
+        
+    }
+
+    .container-progresso h1, p{
+        margin: 0 0 0 8%;
+    }
+
+    .container-progresso h1{
+        font-family: $fonte-secundaria;
+        font-size: 28px;
+        color: #0A0F8C;
+    }
+
+    .container-progresso p{
+        font-family: $fonte-principal;
+        font-size: 16px;
+        color: #0A0F8C;
+        padding: 1% 0 0 0;
+    }
+
+  }

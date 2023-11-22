@@ -134,8 +134,8 @@ $breakpoint-mobile: 320px;
 }
 
 
-@media (min-width: $breakpoint-mobile) and (max-width: 800px) {
-    /* Section Capa */
+
+    /* Section C@media (min-width: $breakpoint-mobile) and (max-width: 800px) apa */
 
 .container-capa{
     width: 100vw;
@@ -222,5 +222,4 @@ $breakpoint-mobile: 320px;
     font-size: 16px;
     padding: 1% 10% 1% 10%;
  
-}
 }

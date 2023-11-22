@@ -61,7 +61,7 @@ export default function LoginUsers() {
             setTimeout(()=>{
                 setMsg("");
                 //Redirecionando para a página HOME!
-                window.location.href = "/pages/paciente";
+                window.location.href = "/pages/paciente/home";
             },5000);
 
         }else{
