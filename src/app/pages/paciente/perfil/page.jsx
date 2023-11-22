@@ -54,29 +54,40 @@ export default function PacientePerfil() {
                 <Image className="" alt=""/>
 
             </div>
-            <div className="dados">
-                <table>
-                    <thead>
-                        <tr>
-                            <td>Nome Completo</td>
-                            <td>Telefone</td>
-                            <td>CPF</td>
-                            <td>Plano de Saude</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                   {nomes.map((item, indice) => (
-                        <tr key={indice}>
-                        <td>{item.nome}</td>
-                        <td>{item.telefone}</td>
-                        <td>{item.cpf}</td>
-                        <td>{item.plano}</td>
-                        
-                        </tr>
-                   ))}
-                    </tbody>
-                </table>
+            <div className="container-perfil">
+              <div className="dados">
+                  <table>
+                      <tbody>
+                          <tr className="titulo-tabela">
+                              <td>Nome Completo</td>
+                          </tr>
+                      </tbody>
+                      <thead>
+                              <td>Exemplo Aqui</td>
+                      </thead>
+                      <tbody>
+                              <td className="titulo-tabela">Telefone</td>
+                      </tbody>
+                      <thead>
+                              <td>Exemplo Aqui</td>
+                      </thead>
+                      <tbody>
+                              <td  className="titulo-tabela">CPF</td>
+                      </tbody>
+                      <thead>
+                              <td>Exemplo Aqui</td>
+                      </thead>
+                      <tbody>
+                              <td  className="titulo-tabela">Plano de Saúde</td>
+                      </tbody>
+                      <thead>
+                              <td>Exemplo Aqui</td>
+                      </thead>
 
+                      
+                  </table>
+
+              </div>
             </div>
         </section>
     )

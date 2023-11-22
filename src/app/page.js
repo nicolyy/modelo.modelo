@@ -19,7 +19,7 @@ export default function Home() {
         <div className="objetivo-conteudo">
               <h3 className="obj-titulo">Descrição do Projeto</h3>
               <p>
-              O projeto NTC Health consiste na criação de um despertador de acompanhamentopara pacientes, 
+              O projeto NTC Health consiste na criação de um despertador de acompanhamento para pacientes, 
               onde o médico responsável podera cadastrar as  necessidades do mesmo, de acordo com os medicamentos
               necessários. A agenda também determinará o intervalo de horas entre cada medicação, e o paciente poderá 
               e estipulará a data de inicio e fim. 
@@ -34,7 +34,8 @@ export default function Home() {
         <Image className="objetivo-img" src={Medica} alt="Medica com um celular"/>
       </section>
       <section className="container-conteudo">
-
+        <h3>Nossa solução foi pensada para dispositivos mobile.
+          Para uma melhor experiência, ajustar o tamanho da tela</h3>
       </section>
       <section className="container-solucao">
         <h1>Conheça a nossa solução!</h1>

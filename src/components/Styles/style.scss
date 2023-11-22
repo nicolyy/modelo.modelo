@@ -29,6 +29,8 @@ $breakpoint-mobile: 320px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+  
     
 }
 
@@ -71,7 +73,7 @@ $breakpoint-mobile: 320px;
     width: 100vw;
     height: 40vh;
 
-    margin: 10% 0% 10% 0%;
+    margin: 5% 0% 5% 0%;
 
     display: flex;
     flex-direction: row;
@@ -102,8 +104,22 @@ $breakpoint-mobile: 320px;
 
 /* Section Conteudo */
 .container-conteudo{
+
     height: 40vh;
     background-color: #D9D9D9;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-conteudo h3{
+    font-size: 1.5rem;
+    font-family: $fonte-secundaria;
+    color: #0A0F8C;
+    padding: 0 30% 0 30%;
+
 }
 
 /* Section para conhecer a Solução */
@@ -113,7 +129,7 @@ $breakpoint-mobile: 320px;
     justify-content: center;
     align-items: center;
 
-    padding: 10% 0 10% 0;
+    padding: 5% 0 5% 0;
 
 }
 .container-solucao h1{
@@ -174,7 +190,81 @@ $breakpoint-mobile: 320px;
     width: 100vw;
     height: 40vh;
 
-    margin: 20% 0% 20% 0%;
+    margin: 10% 0% 10% 0%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.objetivo-conteudo{
+    width: 40%;
+    height: 70%;
+}
+
+.objetivo-conteudo h3{
+    font-family: $fonte-secundaria;
+    font-size: 32px;
+ 
+}
+
+.objetivo-conteudo p{
+    font-family: $fonte-principal;
+    font-size: 20px ;
+    padding: 2% 0 2% 0;
+}
+
+.objetivo-img{
+    width: 40%;
+
+}
+
+/* Section Conteudo */
+
+
+/* Section para conhecer a Solução */
+
+.container-solucao h1{
+    font-size: px;
+    font-family: $fonte-secundaria;
+    margin: 0 0 3% 0;
+}
+
+.acessar-solucao{
+    font-family: $fonte-secundaria;
+    font-size: 16px;
+    padding: 1% 10% 1% 10%;
+ 
+}
+
+
+@media (min-width: $breakpoint-mobile) and (max-width: 800px){
+  
+.capa-titulo{
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.capa-titulo h1{
+    font-size: 2rem;
+    font-family: $fonte-titulo;
+}
+
+.capa-titulo h2{
+    font-size: 1rem;
+    margin: 5% 0 0 0;
+}
+
+
+/* Section Objetivo */
+
+.container-objetivo{
+    width: 100vw;
+    height: 40vh;
+
+    margin: 80% 0% 80% 0%;
 
     display: flex;
     flex-direction: column;
@@ -189,7 +279,7 @@ $breakpoint-mobile: 320px;
 
 .objetivo-conteudo h3{
     font-family: $fonte-secundaria;
-    font-size: 22px;
+    font-size: 28px;
  
 }
 
@@ -198,23 +288,30 @@ $breakpoint-mobile: 320px;
     font-size: 16px ;
     padding: 2% 0 2% 0;
 }
-.obj-titulo{
-    
-}
+
 .objetivo-img{
-    width: 300px;
-    height: 200px;
+    width: 60%;
+    margin: 80% 0 0 0;
+
 }
 
 /* Section Conteudo */
+.container-conteudo h3{
+    font-size: 20px;
+    padding: 0 10% 0 10%;
+}
 
 
 /* Section para conhecer a Solução */
 
+.container-solucao{
+    margin: 30% 0 30% 0;
+}
+
 .container-solucao h1{
-    font-size: 22px;
+    font-size: 24px;
     font-family: $fonte-secundaria;
-    margin: 0 0 5% 0;
+    margin: 0 0 3% 0;
 }
 
 .acessar-solucao{
@@ -222,4 +319,6 @@ $breakpoint-mobile: 320px;
     font-size: 16px;
     padding: 1% 10% 1% 10%;
  
+}
+
 }
