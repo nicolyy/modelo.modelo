@@ -15,7 +15,7 @@ export default function HomeMedico(){
         <>
         <section>
             <div className="container-boasvindas">
-                <h1>Olá, Nome do Usuario {} </h1>
+                <h1>Olá, Nome do Usuario  </h1>
                 <p>Vamos acompanhar os seus pacientes?</p>
             </div>
             
@@ -29,7 +29,7 @@ export default function HomeMedico(){
                         </Link>
                     </div>
                     <div>
-                        <Link className="options-item" href="#" >
+                        <Link className="options-item" href="/pages/profissional/pacientes" >
                             <Image src={Pacientes} alt="" />
                             <p>PACIENTES</p>
                         </Link>

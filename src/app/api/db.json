@@ -1,8 +1,0 @@
-{
-    "pacientes": [
-      {"id": 1, "nome": "Nicoly", "telefone": "11983141580", "cpf": "54888329800", "plano": "Porto Seguro"},
-      {"id": 2, "nome": "Ana Julia", "telefone": "11983141580", "cpf": "54888329800", "plano": "Porto Seguro"},
-      {"id": 3, "nome": "Caua", "telefone": "11983141580", "cpf": "54888329800", "plano": "Porto Seguro"}
-     
-    ]
-  }
