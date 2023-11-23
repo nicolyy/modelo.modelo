@@ -1,0 +1,112 @@
+@import "style.scss";
+
+$breakpoint-mobile: 320px;
+$breakpoint-tablet: 800px;
+
+
+footer{
+    display: none;
+
+}
+
+@media screen and (min-width: $breakpoint-tablet){
+
+.container-boasvindas{
+    height: 20vh;
+    background-color:#0A0F8C;
+    border-radius: 15px;
+    margin: 5%;
+}
+
+.container-boasvindas h1{
+    font-family: $fonte-secundaria;
+    color: #ffffff;
+    font-size: 2rem;
+
+    padding: 5% 0 0 5%;
+}
+
+.container-boasvindas p{
+    font-family: $fonte-principal;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 0% 0 0 5%;
+}
+
+.options-profissional h3{
+    font-family: $fonte-secundaria;
+  
+    font-size: 2rem;
+
+    padding: 5% 0 0 5%;
+
+}
+
+.container-options{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    padding: 5% 0 0 0;
+}
+
+.options-item{
+    text-decoration: none;
+    color: #000000;
+}
+
+.options-item p{
+    padding: 8% 0 0 0;
+}
+
+}
+
+@media (min-width: $breakpoint-mobile) and (max-width: 800px){
+    .container-boasvindas{
+        height: 15vh;
+        background-color:#0A0F8C;
+        border-radius: 15px;
+        margin: 5%;
+    }
+    
+    .container-boasvindas h1{
+        font-family: $fonte-secundaria;
+        color: #ffffff;
+        font-size: 1.6rem;
+    
+        padding: 5% 0 0 5%;
+    }
+    
+    .container-boasvindas p{
+        font-family: $fonte-principal;
+        color: #ffffff;
+        font-size: 0.8rem;
+        padding: 2% 0 0 5%;
+    }
+    
+    .options-profissional h3{
+        font-family: $fonte-secundaria;
+      
+        font-size: 1.6rem;
+    
+        padding: 5% 0 0 5%;
+    
+    }
+    
+    .container-options{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        padding: 5% 0 0 0;
+    }
+    
+    .options-item{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .options-item p{
+        padding: 8% 0 0 0;
+    }
+}

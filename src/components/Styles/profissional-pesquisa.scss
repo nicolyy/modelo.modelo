@@ -1,0 +1,165 @@
+@import "style.scss";
+@import "profissional-home.scss";
+
+
+$breakpoint-mobile: 320px;
+$breakpoint-tablet: 800px;
+
+@media (min-width: $breakpoint-tablet) {
+
+.container-tabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 5% 0 5% 0;
+}
+
+.container-tabela h1{
+    font-family: $fonte-secundaria;
+    margin: 0 0 2% 5%;
+    color: #0A0F8C;
+    font-weight: bold;
+    font-size: 2rem
+    
+}
+
+.pesquisa-paciente{
+    width: 90vw;
+    height: 5vh;
+    border-radius: 15px;
+    border: solid 1px #878181;
+}
+
+.btn-adicionar{
+    width: 190px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background:  #D9D9D9;
+    border: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-family: $fonte-secundaria;
+    
+}
+
+.container-pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-dados-pesquisar{
+    width: 90vh;
+    margin: 0 5% 0 5%;
+}
+.item-titulo-tabela{
+    width: 30%;
+    background-color: #0A0F8C;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: left;
+
+    padding: 2% 0 2% 2%;
+
+    border: solid 1px #ffffff;
+}
+
+.item-dado-tabela{
+    border: #0A0F8C solid 1px;
+}
+
+.container-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0 5% 0;
+}
+
+}
+
+@media (min-width: $breakpoint-mobile) and (max-width: 800px) {
+    .container-tabela{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin: 5% 0 5% 0;
+    }
+    
+    .container-tabela h1{
+        font-family: $fonte-secundaria;
+        margin: 0 0 2% 5%;
+        color: #0A0F8C;
+        font-weight: bold;
+        font-size: 1rem
+        
+    }
+    
+    .pesquisa-paciente{
+        width: 90vw;
+        height: 5vh;
+        border-radius: 15px;
+        border: solid 1px #878181;
+    }
+    
+    .btn-adicionar{
+        width: 190px;
+        height: 45px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background:  #D9D9D9;
+        border: none;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        font-family: $fonte-secundaria;
+        
+    }
+    
+    .container-pesquisa{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .table-dados-pesquisar{
+        width: 90vw;
+        margin: 0 5% 0 5%;
+    }
+    .item-titulo-tabela{
+        width: 40%;
+        background-color: #0A0F8C;
+        color: #ffffff;
+        font-size: 12px;
+        text-align: left;
+    
+        padding: 2% 0 2% 2%;
+    
+        border: solid 1px #ffffff;
+    }
+    
+    .item-dado-tabela{
+        border: #0A0F8C solid 1px;
+        font-size: 12px;
+        text-align: left;
+        padding: 0 0 0 5%;
+    }
+    
+    .container-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0 5% 0;
+    }
+}
