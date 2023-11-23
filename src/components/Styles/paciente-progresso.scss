@@ -1,6 +1,11 @@
 @import "style.scss";
 
 $breakpoint-mobile: 320px;
+$breakpoint-tablet: 800px;
+
+footer{
+    display: none;
+}
 
 /* Barra de progresso */
 .background{
@@ -23,6 +28,48 @@ $breakpoint-mobile: 320px;
 
     border-radius: 30px;
     
+  }
+
+  @media (min-width: $breakpoint-tablet) {
+
+    
+    .principal-progresso{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-progresso{
+        width: 90%;
+        height: 10vh;
+        background-color: #E3E4FF ;
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5% 0 2% 0
+        
+    }
+
+    .container-progresso h1, p{
+        margin: 0 0 0 8%;
+    }
+
+    .container-progresso h1{
+        font-family: $fonte-secundaria;
+        font-size: 28px;
+        color: #0A0F8C;
+    }
+
+    .container-progresso p{
+        font-family: $fonte-principal;
+        font-size: 16px;
+        color: #0A0F8C;
+        padding: 1% 0 0 0;
+    }
+
+
   }
 
   
